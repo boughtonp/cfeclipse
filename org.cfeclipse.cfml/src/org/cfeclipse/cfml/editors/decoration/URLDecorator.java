@@ -6,7 +6,6 @@ import java.util.List;
 
 import org.cfeclipse.cfml.CFMLPlugin;
 import org.cfeclipse.cfml.preferences.CFMLPreferenceConstants;
-import org.cfeclipse.cfml.util.CFPluginImages;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.QualifiedName;

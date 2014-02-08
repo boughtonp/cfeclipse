@@ -26,9 +26,6 @@ import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.ide.IDE;
 import org.eclipse.ui.texteditor.ITextEditor;
-import org.eclipse.core.runtime.IPath;
-
-
 import org.cfeclipse.cfml.editors.CFMLEditor;
 
 /**

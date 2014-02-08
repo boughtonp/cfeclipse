@@ -12,7 +12,6 @@
 package org.cfeclipse.cfml.editors.text;
 
 import org.cfeclipse.cfml.editors.CFMLEditor;
-import org.cfeclipse.cfml.editors.ICFDocument;
 import org.cfeclipse.cfml.parser.CFDocument;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.jface.text.IDocument;

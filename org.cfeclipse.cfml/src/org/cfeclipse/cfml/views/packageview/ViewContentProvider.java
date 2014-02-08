@@ -11,8 +11,6 @@ import org.cfeclipse.cfml.views.packageview.objects.ProjectNode;
 import org.cfeclipse.cfml.views.packageview.objects.TreeObject;
 import org.cfeclipse.cfml.views.packageview.objects.TreeParent;
 import org.eclipse.core.resources.IProject;
-import org.eclipse.core.resources.IProjectNature;
-import org.eclipse.core.runtime.CoreException;
 import org.eclipse.jface.viewers.IStructuredContentProvider;
 import org.eclipse.jface.viewers.ITreeContentProvider;
 import org.eclipse.jface.viewers.Viewer;

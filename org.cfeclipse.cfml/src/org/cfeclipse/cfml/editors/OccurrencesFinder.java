@@ -12,18 +12,12 @@ package org.cfeclipse.cfml.editors;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-import org.cfeclipse.cfml.CFMLPlugin;
-import org.cfeclipse.cfml.editors.dnd.SelectionCursorListener;
 import org.cfeclipse.cfml.parser.CFDocument;
-import org.eclipse.core.resources.IMarker;
 import org.eclipse.core.resources.IResource;
-import org.eclipse.core.runtime.CoreException;
-import org.eclipse.jface.preference.IPreferenceStore;
 import org.eclipse.jface.text.BadLocationException;
 import org.eclipse.jface.text.IDocument;
 import org.eclipse.jface.text.IRegion;
@@ -35,7 +29,6 @@ import org.eclipse.jface.text.source.ISourceViewer;
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.MouseEvent;
-import org.eclipse.ui.texteditor.MarkerUtilities;
 
 public class OccurrencesFinder {
     

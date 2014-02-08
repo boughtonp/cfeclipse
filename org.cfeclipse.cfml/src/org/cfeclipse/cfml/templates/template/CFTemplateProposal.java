@@ -1,7 +1,6 @@
 package org.cfeclipse.cfml.templates.template;
 
 import org.eclipse.jface.text.IRegion;
-import org.eclipse.jface.text.contentassist.CompletionProposal;
 import org.eclipse.jface.text.contentassist.ICompletionProposalExtension4;
 import org.eclipse.jface.text.templates.Template;
 import org.eclipse.jface.text.templates.TemplateContext;

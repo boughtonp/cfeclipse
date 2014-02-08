@@ -10,18 +10,13 @@
  *******************************************************************************/
 package org.cfeclipse.cfml.views.explorer.vfs.view;
 
-import org.eclipse.core.filesystem.EFS;
-import org.eclipse.core.filesystem.IFileStore;
-import org.eclipse.core.runtime.CoreException;
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IMenuListener;
 import org.eclipse.jface.action.IMenuManager;
 import org.eclipse.jface.action.MenuManager;
 import org.eclipse.jface.dialogs.ProgressMonitorDialog;
-import org.eclipse.jface.preference.PreferenceDialog;
 import org.eclipse.jface.resource.ImageRegistry;
 import org.eclipse.jface.viewers.ISelection;
-import org.eclipse.jface.window.ApplicationWindow;
 import org.eclipse.swt.*;
 import org.eclipse.swt.custom.*;
 import org.eclipse.swt.dnd.*;
@@ -32,10 +27,7 @@ import org.eclipse.swt.program.*;
 import org.eclipse.swt.widgets.*;
 import org.eclipse.ui.IEditorDescriptor;
 import org.eclipse.ui.IWorkbenchPage;
-import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.PlatformUI;
-import org.eclipse.ui.dialogs.PreferencesUtil;
-import org.eclipse.ui.ide.IDE;
 import org.eclipse.ui.part.FileEditorInput;
 import org.eclipse.ui.part.IShowInTarget;
 import org.eclipse.ui.part.ShowInContext;
@@ -43,7 +35,6 @@ import org.eclipse.ui.part.ViewPart;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
-import java.net.URISyntaxException;
 import java.text.*;
 import java.util.*;
 
@@ -51,24 +42,14 @@ import org.apache.commons.vfs.FileName;
 import org.apache.commons.vfs.FileObject;
 import org.apache.commons.vfs.FileSystemException;
 import org.apache.commons.vfs.FileSystemManager;
-import org.apache.commons.vfs.FileSystemOptions;
 import org.apache.commons.vfs.VFS;
-import org.apache.commons.vfs.auth.StaticUserAuthenticator;
-import org.apache.commons.vfs.impl.DefaultFileSystemConfigBuilder;
-import org.apache.commons.vfs.provider.ftp.FtpFileSystemConfigBuilder;
-import org.apache.commons.vfs.provider.sftp.SftpFileSystemConfigBuilder;
 import org.apache.commons.vfs.util.Os;
 
 import org.cfeclipse.cfml.editors.CFJavaFileEditorInput;
 import org.cfeclipse.cfml.editors.CFMLEditor;
-import org.cfeclipse.cfml.images.ColumnViewerToolTipSupport;
-import org.cfeclipse.cfml.images.ToolTip;
 import org.cfeclipse.cfml.net.FTPConnectionProperties;
-import org.cfeclipse.cfml.net.RemoteFile;
 import org.cfeclipse.cfml.net.RemoteFileEditorInput;
-import org.cfeclipse.cfml.preferences.FtpConnectionDialog;
 import org.cfeclipse.cfml.util.CFPluginImages;
-import org.cfeclipse.cfml.views.explorer.FileExplorerView;
 import org.cfeclipse.cfml.views.explorer.vfs.FileOperation;
 import org.cfeclipse.cfml.views.explorer.vfs.view.menus.EditMenu;
 import org.cfeclipse.cfml.views.explorer.vfs.view.menus.FileMenu;

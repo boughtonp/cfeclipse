@@ -25,8 +25,6 @@
 package org.cfeclipse.cfml.net;
 
 
-import java.net.URL;
-
 import org.apache.commons.vfs.FileObject;
 import org.apache.commons.vfs.FileSystemException;
 import org.eclipse.core.runtime.IPath;

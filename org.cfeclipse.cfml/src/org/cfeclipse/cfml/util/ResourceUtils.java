@@ -46,7 +46,6 @@ import org.eclipse.core.resources.IWorkspaceRoot;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.core.runtime.QualifiedName;
-import org.eclipse.ui.IFileEditorInput;
 
 /**
  * This is a helper class to provide various useful methods that related to Eclipse

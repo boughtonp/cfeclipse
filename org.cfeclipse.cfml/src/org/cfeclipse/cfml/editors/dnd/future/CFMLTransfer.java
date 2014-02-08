@@ -2,7 +2,6 @@ package org.cfeclipse.cfml.editors.dnd.future;
 
 import java.io.*;
 
-import org.eclipse.core.resources.IResource;
 import org.eclipse.swt.dnd.ByteArrayTransfer;
 import org.eclipse.swt.dnd.TransferData;
 /**

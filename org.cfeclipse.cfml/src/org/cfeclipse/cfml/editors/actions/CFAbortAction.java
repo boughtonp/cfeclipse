@@ -32,7 +32,6 @@ import org.eclipse.jface.text.ITypedRegion;
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.ui.IEditorActionDelegate;
 import org.eclipse.ui.IWorkbenchWindowActionDelegate;
-import org.eclipse.ui.texteditor.ITextEditor;
 
 /**
  * @author Paul V

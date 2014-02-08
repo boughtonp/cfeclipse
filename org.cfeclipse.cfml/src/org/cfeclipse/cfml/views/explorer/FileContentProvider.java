@@ -15,7 +15,6 @@ import org.eclipse.jface.viewers.TreeSelection;
 import org.eclipse.jface.viewers.Viewer;
 import org.eclipse.ui.IEditorInput;
 import org.eclipse.ui.part.ViewPart;
-import org.eclipse.jface.viewers.ISelection;
 
 class FileContentProvider implements IStructuredContentProvider {
     

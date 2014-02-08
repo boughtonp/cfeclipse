@@ -7,7 +7,6 @@
 package org.cfeclipse.cfml.views.explorer;
 
 
-import org.cfeclipse.cfml.net.RemoteFile;
 import org.eclipse.ui.IEditorInput;
 import org.eclipse.ui.IViewPart;
 

@@ -1,6 +1,5 @@
 package org.cfeclipse.cfml.views.dictionary;
 
-import org.cfeclipse.cfml.CFMLPlugin;
 import org.eclipse.jface.viewers.IStructuredContentProvider;
 import org.eclipse.jface.viewers.ITreeContentProvider;
 import org.eclipse.jface.viewers.Viewer;

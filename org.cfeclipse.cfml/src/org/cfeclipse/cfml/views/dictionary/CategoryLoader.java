@@ -25,9 +25,6 @@
 package org.cfeclipse.cfml.views.dictionary;
 import java.net.URL;
 import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 

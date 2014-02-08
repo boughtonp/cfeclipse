@@ -7,7 +7,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import org.cfeclipse.cfml.CFMLPlugin;
 import org.cfeclipse.cfml.editors.actions.DynamicActionRunner;
-import org.cfeclipse.cfml.editors.actions.EditTagAction;
 import org.cfeclipse.cfml.editors.actions.InsertSnippetAction;
 import org.cfeclipse.cfml.editors.actions.InsertTagAction;
 import org.cfeclipse.cfml.util.CFPluginImages;

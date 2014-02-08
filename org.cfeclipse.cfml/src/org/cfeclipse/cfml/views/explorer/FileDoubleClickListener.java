@@ -9,8 +9,6 @@ package org.cfeclipse.cfml.views.explorer;
 import org.cfeclipse.cfml.editors.CFMLEditor;
 import org.cfeclipse.cfml.net.RemoteFile;
 import org.cfeclipse.cfml.net.RemoteFileEditorInput;
-import org.eclipse.core.resources.IFile;
-import org.eclipse.core.runtime.Path;
 import org.eclipse.jface.viewers.DoubleClickEvent;
 import org.eclipse.jface.viewers.IDoubleClickListener;
 import org.eclipse.jface.viewers.ISelection;
@@ -18,9 +16,7 @@ import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.ui.IEditorDescriptor;
 import org.eclipse.ui.IEditorInput;
 import org.eclipse.ui.IWorkbenchPage;
-import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.PlatformUI;
-import org.eclipse.ui.part.FileEditorInput;
 
 /**
  * @author Stephen Milligan

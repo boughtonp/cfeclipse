@@ -25,8 +25,6 @@ import org.cfeclipse.cfml.CFMLPlugin;
 import org.cfeclipse.cfml.net.ftp.PublicKeyAuthUserInfo;
 import org.cfeclipse.cfml.util.AlertUtils;
 
-import com.jcraft.jsch.UserInfo;
-
 
 /**
  * @author Stephen Milligan

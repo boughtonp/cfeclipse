@@ -3,21 +3,13 @@ package org.cfeclipse.cfml;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import org.cfeclipse.cfml.editors.ICFDocument;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
 import org.eclipse.core.runtime.jobs.Job;
-import org.eclipse.swt.SWT;
-import org.eclipse.swt.browser.Browser;
-import org.eclipse.swt.browser.TitleEvent;
-import org.eclipse.swt.browser.TitleListener;
-import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.widgets.Display;
-import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.internal.browser.DefaultBrowserSupport;
-import org.eclipse.ui.help.IWorkbenchHelpSystem;
 
 public class UrlViewer {
 

@@ -55,7 +55,6 @@ import java.util.ArrayList;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.cfeclipse.cfml.CFMLPlugin;
 import org.cfeclipse.cfml.properties.CFMLPropertyManager;
 import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IResource;

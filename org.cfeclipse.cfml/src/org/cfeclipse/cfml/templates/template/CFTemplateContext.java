@@ -11,9 +11,6 @@
 
 package org.cfeclipse.cfml.templates.template;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.cfeclipse.cfml.editors.formatters.XmlDocumentFormatter;
 import org.eclipse.jface.text.BadLocationException;
 import org.eclipse.jface.text.IDocument;
@@ -26,7 +23,6 @@ import org.eclipse.jface.text.templates.TemplateBuffer;
 import org.eclipse.jface.text.templates.TemplateContextType;
 import org.eclipse.jface.text.templates.TemplateException;
 import org.eclipse.jface.text.templates.TemplateVariable;
-import org.eclipse.jface.viewers.ISelection;
 
 public class CFTemplateContext extends DocumentTemplateContext {
 	

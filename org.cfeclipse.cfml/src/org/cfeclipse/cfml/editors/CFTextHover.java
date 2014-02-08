@@ -18,9 +18,6 @@
  */
 package org.cfeclipse.cfml.editors;
 
-//import org.eclipse.jface.text.*;
-import java.util.StringTokenizer;
-
 import org.cfeclipse.cfml.dictionary.Function;
 import org.cfeclipse.cfml.dictionary.SyntaxDictionary;
 import org.cfeclipse.cfml.dictionary.Tag;
@@ -30,7 +27,6 @@ import org.eclipse.jface.text.IRegion;
 import org.eclipse.jface.text.ITextHover;
 import org.eclipse.jface.text.ITextViewer;
 import org.eclipse.jface.text.Region;
-import org.eclipse.jface.text.source.ISourceViewer;
 import org.eclipse.swt.graphics.Point;
 
 //import org.cfeclipse.coldfusionmx.dictionary.DictionaryManager;

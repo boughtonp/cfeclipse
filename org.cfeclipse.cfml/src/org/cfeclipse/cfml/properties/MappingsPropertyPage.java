@@ -1,17 +1,10 @@
 package org.cfeclipse.cfml.properties;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-import java.util.Map.Entry;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.cfeclipse.cfml.mappings.CFMapping;
 import org.cfeclipse.cfml.mappings.MappingManager;
 import org.cfeclipse.cfml.util.CFMappings;
-import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.runtime.CoreException;
@@ -32,9 +25,7 @@ import org.eclipse.swt.widgets.Table;
 import org.eclipse.swt.widgets.TableColumn;
 import org.eclipse.swt.widgets.TableItem;
 import org.eclipse.swt.widgets.Text;
-import org.eclipse.ui.dialogs.ContainerSelectionDialog;
 import org.eclipse.ui.dialogs.PropertyPage;
-import org.eclipse.ui.dialogs.ResourceSelectionDialog;
 
 public class MappingsPropertyPage extends PropertyPage {
 

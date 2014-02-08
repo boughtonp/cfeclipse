@@ -7,8 +7,6 @@
  */
 package org.cfeclipse.cfml.views.dictionary;
 
-import java.util.Set;
-
 import org.cfeclipse.cfml.dictionary.ScopeVar;
 
 

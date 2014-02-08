@@ -1,17 +1,12 @@
 package org.cfeclipse.cfml.editors.actions;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Properties;
-import java.util.Set;
-
 import org.cfeclipse.cfml.dialogs.TagEditDialog;
 import org.cfeclipse.cfml.dictionary.DictionaryManager;
 import org.cfeclipse.cfml.dictionary.Tag;
 import org.cfeclipse.cfml.editors.ICFDocument;
 import org.cfeclipse.cfml.views.dictionary.TagFormatter;
 import org.eclipse.jface.dialogs.IDialogConstants;
-import org.eclipse.jface.text.BadLocationException;
 import org.eclipse.jface.text.IDocument;
 import org.eclipse.jface.text.ITextSelection;
 import org.eclipse.jface.viewers.ISelection;

@@ -36,7 +36,6 @@ import org.eclipse.jface.util.IPropertyChangeListener;
 import org.eclipse.jface.util.PropertyChangeEvent;
 
 import org.cfeclipse.frameworks.fusebox.FuseboxPlugin;
-import org.cfeclipse.frameworks.fusebox.util.Utils;
 
 /**
  * This is a property store for a project. It stores all of it's values within

@@ -3,7 +3,6 @@ package org.cfeclipse.cfml.parser;
 import java.util.HashMap;
 import java.util.Iterator;
 
-import org.cfeclipse.cfml.editors.ICFDocument;
 import org.cfeclipse.cfml.parser.cfmltagitems.CfmlTagSet;
 import org.cfeclipse.cfml.parser.docitems.DocItem;
 import org.cfeclipse.cfml.parser.docitems.TagItem;

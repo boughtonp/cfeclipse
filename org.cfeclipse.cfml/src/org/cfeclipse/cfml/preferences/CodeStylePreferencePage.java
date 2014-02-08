@@ -1,7 +1,6 @@
 package org.cfeclipse.cfml.preferences;
 
 import org.cfeclipse.cfml.CFMLPlugin;
-import org.eclipse.jface.preference.BooleanFieldEditor;
 import org.eclipse.jface.preference.FieldEditorPreferencePage;
 import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.IWorkbenchPreferencePage;

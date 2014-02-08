@@ -9,7 +9,6 @@ package org.cfeclipse.cfml.views.explorer;
 import java.io.File;
 import java.util.ArrayList;
 
-import org.apache.commons.vfs.FileName;
 import org.cfeclipse.cfml.net.RemoteFile;
 import org.cfeclipse.cfml.net.ftp.FTPConnection;
 import org.cfeclipse.cfml.util.AlertUtils;

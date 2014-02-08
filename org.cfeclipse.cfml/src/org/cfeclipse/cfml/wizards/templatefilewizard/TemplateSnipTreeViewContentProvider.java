@@ -7,8 +7,6 @@ package org.cfeclipse.cfml.wizards.templatefilewizard;
 
 import java.io.File;
 import java.io.FileFilter;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Iterator;
 

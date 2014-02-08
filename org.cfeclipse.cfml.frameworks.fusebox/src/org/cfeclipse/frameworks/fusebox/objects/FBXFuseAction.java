@@ -10,7 +10,6 @@ import java.util.ArrayList;
 
 import org.cfeclipse.frameworks.fusebox.util.PluginImages;
 import org.eclipse.core.resources.IFile;
-import org.w3c.dom.Node;
 
 
 /**

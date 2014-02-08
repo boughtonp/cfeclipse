@@ -12,20 +12,13 @@
 package org.cfeclipse.cfml.editors.actions;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Properties;
-
 import org.cfeclipse.cfml.CFMLPlugin;
 import org.cfeclipse.cfml.preferences.BrowserPreferenceConstants;
 import org.cfeclipse.cfml.preferences.BrowserPreferencePage;
 import org.cfeclipse.cfml.properties.CFMLPropertyManager;
-import org.cfeclipse.cfml.properties.ProjectPropertyPage;
 import org.cfeclipse.cfml.urls.URLManager;
-import org.cfeclipse.cfml.util.AlertUtils;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.jface.action.IAction;
@@ -41,14 +34,8 @@ import org.eclipse.swt.widgets.MessageBox;
 import org.eclipse.ui.IEditorActionDelegate;
 import org.eclipse.ui.IEditorInput;
 import org.eclipse.ui.IEditorPart;
-import org.eclipse.ui.IWorkbench;
-import org.eclipse.ui.IWorkbenchPage;
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.IWorkbenchWindowActionDelegate;
-import org.eclipse.ui.PlatformUI;
-import org.eclipse.ui.dialogs.PropertyPage;
-import org.eclipse.ui.ide.IDE;
-import org.eclipse.ui.internal.dialogs.PropertyDialog;
 import org.eclipse.ui.part.FileEditorInput;
 
 /**

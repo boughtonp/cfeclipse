@@ -24,7 +24,6 @@
 package org.cfeclipse.frameworks.fusebox.objects;
 
 import org.cfeclipse.frameworks.fusebox.util.PluginImages;
-import org.eclipse.core.resources.IFile;
 
 /**
  * Description: this is the IF command that actually points to somewhere else (i.e. an action such a circuit.fuseaction)

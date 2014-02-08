@@ -7,7 +7,6 @@
 package org.cfeclipse.cfml.views.explorer;
 
 import java.io.File;
-import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.net.URI;
 import java.util.ArrayList;

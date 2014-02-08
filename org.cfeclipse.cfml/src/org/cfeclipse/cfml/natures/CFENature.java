@@ -30,14 +30,7 @@ package org.cfeclipse.cfml.natures;
 import java.util.Date;
 
 import org.cfeclipse.cfml.CFMLPlugin;
-import org.cfeclipse.cfml.dictionary.DictionaryManager;
-import org.cfeclipse.cfml.editors.contentassist.CFContentAssist;
 import org.cfeclipse.cfml.editors.contentassist.CFEContentAssistManager;
-import org.cfeclipse.cfml.editors.contentassist.CFMLFunctionParamAssist;
-import org.cfeclipse.cfml.editors.contentassist.CFMLScopeAssist;
-import org.cfeclipse.cfml.editors.contentassist.CFMLTagAssist;
-import org.cfeclipse.cfml.editors.contentassist.CFMLFunctionCompletionProcessor;
-import org.cfeclipse.cfml.editors.contentassist.HTMLTagAssistContributor;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IProjectDescription;
 import org.eclipse.core.runtime.CoreException;

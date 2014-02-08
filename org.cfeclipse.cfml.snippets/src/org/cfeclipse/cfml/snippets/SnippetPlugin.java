@@ -1,9 +1,6 @@
 package org.cfeclipse.cfml.snippets;
 
 import java.io.File;
-import java.util.MissingResourceException;
-import java.util.ResourceBundle;
-
 import org.cfeclipse.cfml.snippets.preferences.CFMLPreferenceManager;
 import org.cfeclipse.cfml.snippets.properties.CFMLPropertyManager;
 import org.cfeclipse.cfml.snippets.util.CFPluginImages;

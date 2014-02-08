@@ -38,9 +38,6 @@ package org.cfeclipse.cfml.views.snips;
 
 import java.io.File;
 import java.io.FileFilter;
-import java.net.MalformedURLException;
-import java.net.URL;
-
 import org.cfeclipse.snipex.SnipEx;
 import org.cfeclipse.snipex.Library;
 import org.cfeclipse.snipex.Snippet;

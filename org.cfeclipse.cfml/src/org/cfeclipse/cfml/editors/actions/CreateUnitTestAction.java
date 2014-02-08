@@ -13,7 +13,6 @@ import org.cfeclipse.cfml.parser.CFNodeList;
 import org.cfeclipse.cfml.parser.CFParser;
 import org.cfeclipse.cfml.parser.docitems.DocItem;
 import org.cfeclipse.cfml.parser.docitems.TagItem;
-import org.cfeclipse.cfml.views.packageview.objects.FunctionNode;
 import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.text.IDocument;
 import org.eclipse.jface.viewers.ISelection;
@@ -22,8 +21,6 @@ import org.eclipse.ui.IEditorPart;
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.IWorkbenchWindowActionDelegate;
 import org.eclipse.ui.texteditor.ITextEditor;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
 
 public class CreateUnitTestAction implements IWorkbenchWindowActionDelegate,IEditorActionDelegate {
 

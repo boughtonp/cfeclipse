@@ -3,7 +3,6 @@ package org.cfeclipse.cfml.editors.dnd.future;
 import java.util.Iterator;
 
 import org.eclipse.ui.part.PluginTransfer;
-import org.eclipse.ui.part.PluginTransferData;
 import org.eclipse.jface.viewers.*;
 import org.eclipse.swt.dnd.*;
 import org.eclipse.swt.dnd.DragSourceAdapter;

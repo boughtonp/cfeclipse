@@ -1,19 +1,14 @@
 package org.cfeclipse.cfml.mappings;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.eclipse.core.resources.IFolder;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IResource;
-import org.eclipse.core.resources.ResourcesPlugin;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.Path;
 import org.eclipse.core.runtime.QualifiedName;
-import org.eclipse.ui.ide.ResourceUtil;
 
 /**
  * This statuic class manages the the figuring out and setting of mappings for
